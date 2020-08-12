@@ -1,0 +1,6 @@
+.DS_Store
+.ipynb_checkpoints
+.git
+.vscode
+.pytest_cache
+/dataset/.data/
