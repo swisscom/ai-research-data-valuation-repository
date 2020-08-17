@@ -157,7 +157,7 @@ def predict(model, iterator, binary=True):
 
             for index, example in enumerate(example_batch):
                 # Retrieve the corresponding label
-                example.predicted_label = iterator.dataset.fields['label'].vocab.itos[labels_torch[index]]
+                example.predicted_label = iterator.dataset.fields['label'].vocab.itos[int(labels_torch[index])]
 
                 if example.predicted_label == example.label:
                     example.is_correct = True
