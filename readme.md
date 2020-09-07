@@ -81,5 +81,14 @@ docker run -it dataval /bin/bash
 Listed in 'env/requirements.txt'.
 
 
+## Team
+
+Code written by:
+
+[Jean-Baptiste Membrado](https://github.com/JBMembrado)
+
+[Joëlle Hanna]()
+
+
 
 
